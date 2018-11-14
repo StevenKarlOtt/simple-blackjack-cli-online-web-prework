@@ -49,8 +49,9 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
-def check_for_win(total)
-  total.between(16,21) 
+def check_for_win?(total)
+  total.between?(16,21)
+end
 
 #####################################################
 # get every test to pass before coding runner below #
@@ -63,7 +64,9 @@ def runner
   until total > 21 do
     total= hit?(total)
     display_card_total(total)
-        
+    if check_for_win?(total)
+      break
+    end
   end
   
   end_game(total)
