@@ -65,6 +65,7 @@ def runner
     total= hit?(total)
     display_card_total(total)
     if check_for_win?(total)
+      win_game(total)
       break
     end
   end
