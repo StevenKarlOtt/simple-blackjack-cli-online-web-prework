@@ -73,7 +73,10 @@ def runner
 end  
        
        
-def win_game()   
+def win_game(total)
+  puts "Congrats, you win with a score of #{total}. Thanks for playing!"
+end
+
   
 
     
