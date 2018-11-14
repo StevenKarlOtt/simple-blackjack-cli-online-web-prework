@@ -50,7 +50,7 @@ def invalid_command
 end
 
 def check_for_win(total)
-  if total
+  if 
 
 #####################################################
 # get every test to pass before coding runner below #
