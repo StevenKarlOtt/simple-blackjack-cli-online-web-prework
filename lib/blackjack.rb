@@ -53,6 +53,9 @@ def check_for_win?(total)
   total.between?(16,21)
 end
 
+def win_game(total)
+  puts "Congrats, you win with a score of #{total}. Thanks for playing!"
+end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
@@ -76,9 +79,6 @@ def runner
 end  
        
        
-def win_game(total)
-  puts "Congrats, you win with a score of #{total}. Thanks for playing!"
-end
 
   
 
