@@ -50,7 +50,7 @@ def invalid_command
 end
 
 def check_for_win(total)
-  total.between() 
+  total.between(16,21) 
 
 #####################################################
 # get every test to pass before coding runner below #
